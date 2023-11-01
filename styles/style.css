@@ -132,3 +132,11 @@ html::-webkit-scrollbar-thumb {
 .header .header-2 .navbar a:hover {
     background: var(--dark-color);
 }
+
+.header .header-2.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
