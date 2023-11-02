@@ -24,13 +24,14 @@ window.onload = () => {
     }
 }
 
-
+//Toggling function that show login form when login btn is clicked
 let loginForm = document.querySelector('.login-form-container');
 
 document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('active');
 }
 
+//Toggling function that hide login form when close btn is clicked
 document.querySelector('#close-login-btn').onclick = () => {
     loginForm.classList.remove('active');
 }
